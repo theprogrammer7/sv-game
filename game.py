@@ -3,10 +3,6 @@ from random import randint, choice
 from math import sin, cos, radians
 
 import pygame
-#from pygame import Rect, Color
-#from pygame.sprite import Sprite
-#you already imported pygame, why import modules twice? Your code will run faster if 
-#you change Rect to pygame.Rect like I did. If this is a style preference, let me know.
 
 from utils import Timer
 from vec2d import vec2d
@@ -121,7 +117,7 @@ class Game(object):
 	self.clock = pygame.time.Clock()
 	self.paused = False
 
-	#spawning entities
+	
 
 	#Setting up gamefield
 	#need a method for dynamically figuring out how many rows/columns we need based on
