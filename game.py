@@ -1,6 +1,6 @@
 import os, sys
 from random import randint, choice
-from math import sin, cos, radians // or bhai kya hal chal hai
+from math import sin, cos, radians #importing libraries
 
 import pygame
 
