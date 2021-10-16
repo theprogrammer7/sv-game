@@ -1,13 +1,16 @@
+#importing libraries
 import os, sys
 from random import randint, choice
-from math import sin, cos, radians #importing libraries
+from math import sin, cos, radians 
 
+
+#You were importing all widgets anyway, and there was an unknown error. 
 import pygame
 
 from utils import Timer
 from vec2d import vec2d
 from widgets import *
-#You were importing all widgets anyway, and there was an unknown error. 
+
 
 class Game(object):
     print "Setting global Game params."
