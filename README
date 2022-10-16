@@ -1,4 +1,6 @@
-#sv-game
+##sv-game
 
-A simple game in python using pygame,
+A snake game in python using pygame,
+This is a game with with UI ,
+You can use this with the help keyboard buttons.
 
